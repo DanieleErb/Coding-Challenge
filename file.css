@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-image: url("./background.jpg");
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.semitransparent {
+  background-color: rgba(0, 0, 0, .5);
+  width: 62%;
+  margin: 30px auto 60px;
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+
+/* header */
+header {
+  text-align: center;
+  padding-top: 70px;
+}
+
+header img {
+  width: 20%;
+}
+
+header h1 {
+  color: rgb(7, 224, 7);
+  font-size: 24px;
+}
+
+
+/* main */
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+
+.buttons {
+  background-color: rgb(7, 224, 7);
+  padding: 3px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/* customer */
+.customer {
+  color: white;
+  margin-top: 3%;
+}
+
+.customer p {
+  color: rgba(255, 255, 255, 0.8)
+}
+
+.customer h2 {
+  font-size: 18px;
+}
+
+.customer p {
+  font-size: 12px;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  border-radius: 3px;
+}
+
+.customer .bar1 {
+  width: 40%;
+  background-color: rgb(252, 233, 124);
+}
+
+.customer .bar2 {
+  width: 60%;
+  background-color: rgb(85, 207, 33);
+}
+
+.customer .bar3 {
+  width: 20%;
+  background-color: rgb(207, 74, 33);
+}
